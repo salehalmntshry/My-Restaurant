@@ -58,8 +58,8 @@ public class MyRestaurant {
         b4.setName("water  ");
         b4.setPrice(3);
         Helper.beveragesArrayList.add(b4);
-
-        while (true) {
+        while (true){
+         while (true) {
             System.out.println("Enter one to buy food or two to buy beverage or 0 to end: ");
             int option = input.nextInt(); // read the user's choice of food or beverage
 
@@ -130,5 +130,6 @@ public class MyRestaurant {
                 System.out.println("Error");
             }
         }
+      }
     }
 }
